@@ -1,0 +1,72 @@
+/* Reset the margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the content */
+  .content {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  button{
+    border: solid 3px;
+    background-color: black;
+    padding: 10px;
+    height: 75px;
+    font-size: 20px;
+    width: 150px;
+    align-items: center;
+    border-radius:60px;
+    cursor: pointer;
+    color: white;
+}
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
